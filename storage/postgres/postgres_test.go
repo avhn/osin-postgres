@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RangelReale/osin"
+	"github.com/openshift/osin"
 	_ "github.com/lib/pq"
 	"github.com/ory-am/common/pkg"
-	"github.com/ory/osin-storage/storage"
+	"github.com/vvvvv/osin-storage/storage"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
