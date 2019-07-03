@@ -1,11 +1,17 @@
 # osin-storage
 
-[![Build Status](https://travis-ci.org/ory/osin-storage.svg?branch=master)](https://travis-ci.org/ory/osin-storage) [![Coverage Status](https://coveralls.io/repos/ory/osin-storage/badge.svg?branch=master&service=github)](https://coveralls.io/github/ory/osin-storage?branch=master)
+[![Build Status](https://travis-ci.org/vvvvv/osin-storage.svg?branch=master)](https://travis-ci.org/vvvvv/osin-storage) [![Coverage Status](https://coveralls.io/repos/vvvvv/osin-storage/badge.svg?branch=master&service=github)](https://coveralls.io/github/vvvvv/osin-storage?branch=master)
 
-A postgres storage backend for [osin oauth2](https://github.com/RangelReale/osin).
+## Fork 
+
+This repo supports [go modules](https://github.com/golang/go/wiki/Modules)
+
+## Getting started 
+
+A postgres storage backend for [osin oauth2](https://github.com/openshift/osin).
 Additional to implementing the `osin.Storage` interface, the `github.com/ory/osin-storage/storage.Storage` interface defines new methods:
 
-This repository is now stable. If your build fails, try running with godep. An API Documentation is available [here](https://godoc.org/github.com/ory/osin-storage/storage) and [here](https://godoc.org/github.com/ory/osin-storage/storage/postgres).
+This repository is now stable. If your build fails, try running with godep. An API Documentation is available [here](https://godoc.org/github.com/vvvvv/osin-storage/storage) and [here](https://godoc.org/github.com/vvvvv/osin-storage/storage/postgres).
 
 ```
 // CreateClient stores the client in the database and returns an error, if something went wrong
