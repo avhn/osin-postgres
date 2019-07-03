@@ -1,6 +1,6 @@
 # osin-storage
 
-[![Build Status](https://travis-ci.org/vvvvv/osin-storage.svg?branch=master)](https://travis-ci.org/vvvvv/osin-storage) [![Coverage Status](https://coveralls.io/repos/vvvvv/osin-storage/badge.svg?branch=master&service=github)](https://coveralls.io/github/vvvvv/osin-storage?branch=master)
+[![Build Status](https://travis-ci.org/vvvvv/osin-storage.svg?branch=master)](https://travis-ci.org/vvvvv/osin-storage) [![Coverage Status](https://coveralls.io/repos/github/vvvvv/osin-storage/badge.svg?branch=master)](https://coveralls.io/github/vvvvv/osin-storage?branch=master)
 
 ## Fork 
 
