@@ -1,18 +1,19 @@
 language: go
-
 sudo: required
+go_import_path: github.com/vvvvv/osin-storage
+go:
+    - 1.10.x
+    - 1.11.x
+    - tip
 
 env:
-  - COVERALLS_TOKEN=LbLmdnwqFtfaKhSauUHPgkrr1pK4scTbh
   - DOCKER_BIND_LOCALHOST=true
 
 before_install:
   - docker pull postgres
 
 install:
-  - go get golang.org/x/tools/cmd/vet
-  - go get golang.org/x/tools/cmd/cover
-  - go get -u github.com/golang/lint/golint
+  - go get -u golang.org/x/lint/golint
   - go get github.com/mattn/goveralls
   - go get -t -d ./...
 
@@ -20,8 +21,3 @@ script:
   - go vet -x ./storage/...
   - golint ./storage/...
   - ./coverage --coveralls
-
-go:
-  - 1.10.x
-  - 1.11.x
-  - tip
