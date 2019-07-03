@@ -2,14 +2,7 @@ module github.com/vvvvv/osin-storage
 
 go 1.12
 
-replace (
-	github.com/Sirupsen/logrus v1.0.5 => github.com/sirupsen/logrus v1.0.5
-	github.com/Sirupsen/logrus v1.3.0 => github.com/Sirupsen/logrus v1.0.6
-	github.com/Sirupsen/logrus v1.4.0 => github.com/sirupsen/logrus v1.0.6
-)
-
 require (
-	github.com/Sirupsen/logrus v1.4.0 // indirect
 	github.com/araddon/gou v0.0.0-20190110011759-c797efecbb61 // indirect
 	github.com/cenkalti/backoff v2.1.1+incompatible // indirect
 	github.com/coreos/bbolt v1.3.3 // indirect
@@ -34,13 +27,9 @@ require (
 	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/lib/pq v1.1.1
 	github.com/mattbaird/elastigo v0.0.0-20170123220020-2fe47fd29e4b // indirect
-	github.com/oleiade/reflections v1.0.0 // indirect
-	github.com/onsi/ginkgo v1.8.0 // indirect
-	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/openshift/osin v1.0.1
 	github.com/opentracing/opentracing-go v1.1.0 // indirect
 	github.com/ory-am/common v0.4.0 // indirect
-	github.com/ory/common v0.4.0
 	github.com/pborman/uuid v1.2.0
 	github.com/prometheus/client_golang v1.0.0 // indirect
 	github.com/samuel/go-zookeeper v0.0.0-20180130194729-c4fab1ac1bec // indirect
@@ -58,8 +47,6 @@ require (
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
 	google.golang.org/appengine v1.6.1 // indirect
 	google.golang.org/grpc v1.22.0 // indirect
-	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
-	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/gorethink/gorethink.v4 v4.1.0 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce // indirect
 	gopkg.in/ory-am/dockertest.v2 v2.2.3

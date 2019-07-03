@@ -10,7 +10,6 @@ import (
 
 	_ "github.com/lib/pq"
 	"github.com/openshift/osin"
-	"github.com/ory/common/pkg"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -266,13 +265,13 @@ func TestErrors(t *testing.T) {
 	assert.NotNil(t, store.SaveAuthorize(&osin.AuthorizeData{Code: "a", Client: &osin.DefaultClient{}}))
 	assert.NotNil(t, store.SaveAuthorize(&osin.AuthorizeData{Code: "b", Client: &osin.DefaultClient{}, UserData: struct{}{}}))
 	_, err := store.LoadAccess("")
-	assert.Equal(t, pkg.ErrNotFound, err)
+	assert.Equal(t, ErrNotFound, err)
 	_, err = store.LoadAuthorize("")
-	assert.Equal(t, pkg.ErrNotFound, err)
+	assert.Equal(t, ErrNotFound, err)
 	_, err = store.LoadRefresh("")
-	assert.Equal(t, pkg.ErrNotFound, err)
+	assert.Equal(t, ErrNotFound, err)
 	_, err = store.GetClient("")
-	assert.Equal(t, pkg.ErrNotFound, err)
+	assert.Equal(t, ErrNotFound, err)
 }
 
 type ts struct{}
