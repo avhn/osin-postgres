@@ -1,15 +1,10 @@
-sudo: required
-
 language: go
 
-services:
-  - docker
+sudo: required
 
 env:
+  - COVERALLS_TOKEN=LbLmdnwqFtfaKhSauUHPgkrr1pK4scTbh
   - DOCKER_BIND_LOCALHOST=true
-
-go:
-  - 1.5
 
 before_install:
   - docker pull postgres
@@ -25,3 +20,8 @@ script:
   - go vet -x ./storage/...
   - golint ./storage/...
   - ./coverage --coveralls
+
+go:
+  - 1.10.x
+  - 1.11.x
+  - tip
