@@ -1,7 +1,7 @@
 // Package storage defines an interface, which all osin-storage implementations are going to support.
 package storage
 
-import "github.com/openshift/osi"
+import "github.com/openshift/osin"
 
 // Storage extends github.com/RangelReale/osin.Storage with create, update and delete methods for clients.
 type Storage interface {

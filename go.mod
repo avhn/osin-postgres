@@ -25,7 +25,7 @@ require (
 	github.com/go-stomp/stomp v2.0.3+incompatible // indirect
 	github.com/gocql/gocql v0.0.0-20190629212933-1335d3dd7fe2 // indirect
 	github.com/gogo/protobuf v1.2.1 // indirect
-	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
+	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
 	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
@@ -39,7 +39,8 @@ require (
 	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/openshift/osin v1.0.1
 	github.com/opentracing/opentracing-go v1.1.0 // indirect
-	github.com/ory-am/common v0.4.0
+	github.com/ory-am/common v0.4.0 // indirect
+	github.com/ory/common v0.4.0
 	github.com/pborman/uuid v1.2.0
 	github.com/prometheus/client_golang v1.0.0 // indirect
 	github.com/samuel/go-zookeeper v0.0.0-20180130194729-c4fab1ac1bec // indirect
@@ -56,7 +57,7 @@ require (
 	go.uber.org/zap v1.10.0 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
 	google.golang.org/appengine v1.6.1 // indirect
-	google.golang.org/grpc v1.21.1 // indirect
+	google.golang.org/grpc v1.22.0 // indirect
 	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
 	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/gorethink/gorethink.v4 v4.1.0 // indirect

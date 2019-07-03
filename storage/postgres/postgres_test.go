@@ -10,11 +10,12 @@ import (
 
 	"github.com/openshift/osin"
 	_ "github.com/lib/pq"
-	"github.com/ory-am/common/pkg"
+	"github.com/ory/common/pkg"
 	"github.com/vvvvv/osin-storage/storage"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	//"github.com/ory/dockertest"
 	"gopkg.in/ory-am/dockertest.v2"
 )
 
