@@ -1,6 +1,6 @@
 language: go
 sudo: required
-go_import_path: github.com/vvvvv/osin-storage
+go_import_path: github.com/anaxilaus/osin-storage
 go:
     - 1.10.x
     - 1.11.x
