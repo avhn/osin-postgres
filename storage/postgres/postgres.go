@@ -45,7 +45,7 @@ var schemas = []string{`CREATE TABLE IF NOT EXISTS client (
 	access        text NOT NULL
 )`}
 
-// Storage implements interface "github.com/RangelReale/osin".Storage and interface "github.com/ory/osin-storage".Storage
+// Storage implements interface "github.com/openshift/osin".Storage and interface "github.com/anaxilaus/osin-postgres".Storage
 type Storage struct {
 	db *sql.DB
 }

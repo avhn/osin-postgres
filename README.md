@@ -1,18 +1,18 @@
 # Osin PostgreSQL Storage
 
-[![Build Status](https://travis-ci.org/anaxilaus/osin-storage.svg?branch=master)](https://travis-ci.org/anaxilaus/osin-storage)
-[![Coverage Status](https://coveralls.io/repos/github/anaxilaus/osin-storage/badge.svg?branch=master)](https://coveralls.io/github/anaxilaus/osin-storage?branch=master)
+[![Build Status](https://travis-ci.org/anaxilaus/osin-postgres.svg?branch=master)](https://travis-ci.org/anaxilaus/osin-postgres)
+[![Coverage Status](https://coveralls.io/repos/github/anaxilaus/osin-postgres/badge.svg?branch=master)](https://coveralls.io/github/anaxilaus/osin-postgres?branch=master)
 
 
 A postgres storage backend for [osin oauth2](https://github.com/openshift/osin).
 
 Additional to implementing the `osin.Storage` interface, the
-`github.com/anaxilaus/osin-storage/storage.Storage ` interface defines new methods:
+`github.com/anaxilaus/osin-postgres/storage.Storage ` interface defines new methods:
 
 
 This repository is now stable. If your build fails, try running with godep. An API
-Documentation is available [here](https://godoc.org/github.com/anaxilaus/osin-storage/storage)
-and [here](https://godoc.org/github.com/anaxilaus/osin-storage/storage/postgres).
+Documentation is available [here](https://godoc.org/github.com/anaxilaus/osin-postgres/storage)
+and [here](https://godoc.org/github.com/anaxilaus/osin-postgres/storage/postgres).
 
 
 John Gruber’s canonical description of Markdown’s syntax does not specify the syntax
@@ -40,14 +40,14 @@ Please be aware, that this library stores all data as-is and does not perform an
 
 ## Usage
 
-First, install this library with `go get "github.com/anaxilaus/osin-storage/storage/postgres"`.
+First, install this library with `go get "github.com/anaxilaus/osin-postgres/storage/postgres"`.
 
 ```go
 import (
 	"database/sql"
 	_ "github.com/lib/pq"
 
-	"github.com/anaxilaus/osin-storage/storage/postgres"
+	"github.com/anaxilaus/osin-postgres/storage/postgres"
 	"github.com/openshift/osin"
 )
 

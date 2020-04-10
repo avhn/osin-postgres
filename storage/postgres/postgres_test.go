@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anaxilaus/osin-storage/storage"
+	"github.com/anaxilaus/osin-postgres/storage"
 	_ "github.com/lib/pq"
 	"github.com/openshift/osin"
 	"github.com/pborman/uuid"

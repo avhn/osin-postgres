@@ -1,4 +1,4 @@
-module github.com/anaxilaus/osin-storage
+module github.com/anaxilaus/osin-postgres
 
 go 1.13
 
