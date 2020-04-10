@@ -53,7 +53,7 @@ import (
 
 func main() {
     // url := "postgres://my-postgres-url/database"
-	db, err = sql.Open("postgres", url)
+    db, err = sql.Open("postgres", url)
     if err != nil {
         return nil, err
     }
