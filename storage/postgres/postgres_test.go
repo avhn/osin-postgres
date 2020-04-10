@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/anaxilaus/osin-storage/storage"
 	_ "github.com/lib/pq"
 	"github.com/openshift/osin"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vvvvv/osin-storage/storage"
 
 	//"github.com/ory/dockertest"
 	"gopkg.in/ory-am/dockertest.v2"
