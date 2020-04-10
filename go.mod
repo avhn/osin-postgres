@@ -1,6 +1,6 @@
-module github.com/vvvvv/osin-storage
+module github.com/anaxilaus/osin-storage
 
-go 1.12
+go 1.13
 
 require (
 	github.com/araddon/gou v0.0.0-20190110011759-c797efecbb61 // indirect
