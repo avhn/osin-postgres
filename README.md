@@ -1,17 +1,24 @@
 # osin-storage
 
-[![Build Status](https://travis-ci.org/vvvvv/osin-storage.svg?branch=master)](https://travis-ci.org/vvvvv/osin-storage) [![Coverage Status](https://coveralls.io/repos/github/vvvvv/osin-storage/badge.svg?branch=master)](https://coveralls.io/github/vvvvv/osin-storage?branch=master)
+[![Build Status](https://travis-ci.org/anaxilaus/osin-storage.svg?branch=master)](https://travis-ci.org/anaxilaus/osin-storage)
+[![Coverage Status](https://coveralls.io/repos/github/anaxilaus/osin-storage/badge.svg?branch=master)](https://coveralls.io/github/anaxilaus/osin-storage?branch=master)
 
-## Fork 
-
-This repo supports [go modules](https://github.com/golang/go/wiki/Modules)
 
 ## Getting started 
 
 A postgres storage backend for [osin oauth2](https://github.com/openshift/osin).
-Additional to implementing the `osin.Storage` interface, the `github.com/ory/osin-storage/storage.Storage` interface defines new methods:
 
-This repository is now stable. If your build fails, try running with godep. An API Documentation is available [here](https://godoc.org/github.com/vvvvv/osin-storage/storage) and [here](https://godoc.org/github.com/vvvvv/osin-storage/storage/postgres).
+Additional to implementing the `osin.Storage` interface, the
+`github.com/anaxilaus/osin-storage/storage.Storage ` interface defines new methods:
+
+
+This repository is now stable. If your build fails, try running with godep. An API
+Documentation is available [here](https://godoc.org/github.com/anaxilaus/osin-storage/storage)
+and [here](https://godoc.org/github.com/anaxilaus/osin-storage/storage/postgres).
+
+
+John Gruber’s canonical description of Markdown’s syntax does not specify the syntax
+unambiguously. Here 
 
 ```
 // CreateClient stores the client in the database and returns an error, if something went wrong
@@ -35,15 +42,15 @@ Please be aware, that this library stores all data as-is and does not perform an
 
 ## Usage
 
-First, install this library with `go get "github.com/ory/osin-storage/storage/postgres"`.
+First, install this library with `go get "github.com/anaxilaus/osin-storage/storage/postgres"`.
 
 ```go
 import (
 	"database/sql"
 	_ "github.com/lib/pq"
 
-	"github.com/ory/osin-storage/storage/postgres"
-	"github.com/RangelReale/osin"
+	"github.com/anaxilaus/osin-storage/storage/postgres"
+	"github.com/openshift/osin"
 )
 
 func main() {
