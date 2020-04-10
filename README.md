@@ -1,10 +1,8 @@
-# osin-storage
+# Osin PostgreSQL Storage
 
 [![Build Status](https://travis-ci.org/anaxilaus/osin-storage.svg?branch=master)](https://travis-ci.org/anaxilaus/osin-storage)
 [![Coverage Status](https://coveralls.io/repos/github/anaxilaus/osin-storage/badge.svg?branch=master)](https://coveralls.io/github/anaxilaus/osin-storage?branch=master)
 
-
-## Getting started 
 
 A postgres storage backend for [osin oauth2](https://github.com/openshift/osin).
 
